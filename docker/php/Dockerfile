@@ -27,7 +27,8 @@ RUN docker-php-ext-install \
     mbstring \
     zip \
     exif \
-    pcntl
+    pcntl \
+    opcache
 
 # Install Redis extension (IMPORTANT for queues)
 # RUN pecl install redis && docker-php-ext-enable redis
