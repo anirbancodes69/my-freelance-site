@@ -66,7 +66,7 @@
     <nav class="fixed w-full z-50 transition-all duration-300 border-b border-white/5 bg-gray-950/80 backdrop-blur-md">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <div class="text-xl font-extrabold tracking-tighter">
-                <span class="text-white">DEV</span><span class="text-indigo-500">LABS</span>
+                <span class="text-white">DEV</span><span class="text-indigo-500">BY</span><span class="text-white">ANIRBAN</span>
             </div>
 
             <!-- Desktop Links -->
@@ -438,7 +438,7 @@
 
     <!-- FOOTER -->
     <footer class="py-12 text-center text-gray-600 text-sm border-t border-white/5">
-        <p>&copy; 2026 DevLabs. Crafted for conversion.</p>
+        <p>&copy; 2026 DevByAnirban. Scalable Web Solutions.</p>
     </footer>
 
     <!-- FLOATING WHATSAPP BUTTON (High-Conversion for India) -->
