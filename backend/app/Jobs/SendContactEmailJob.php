@@ -27,7 +27,7 @@ class SendContactEmailJob implements ShouldQueue
     public function handle(): void
     {
         // Send to admin
-        Mail::to('anirbancodes@email.com')
+        Mail::to('contact@devbyanirban.com')
             ->send(new AdminNotificationMail($this->data));
     }
 }
