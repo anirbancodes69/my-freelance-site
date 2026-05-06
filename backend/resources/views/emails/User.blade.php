@@ -19,7 +19,7 @@
                                 <tr>
                                     <td>
                                         <div style="font-size: 20px; font-weight: 800; letter-spacing: -1px; color: #1e293b;">
-                                            DEV<span style="color: #6366f1;">LABS</span>
+                                            DEV<span style="color: #6366f1;">BY</span>ANIRBAN
                                         </div>
                                     </td>
                                 </tr>
@@ -48,7 +48,7 @@
                                 </tr>
                                 
                                 <!-- CTA Button -->
-                                <tr>
+                                {{-- <tr>
                                     <td align="left" style="padding-bottom: 40px;">
                                         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate;">
                                             <tr>
@@ -58,7 +58,7 @@
                                             </tr>
                                         </table>
                                     </td>
-                                </tr>
+                                </tr> --}}
 
                                 <tr>
                                     <td style="border-top: 1px solid #f1f5f9; padding-top: 30px;">
@@ -75,7 +75,7 @@
                     <tr>
                         <td style="padding: 0 40px 40px 40px; text-align: left;">
                             <p style="margin: 0; font-size: 12px; color: #cbd5e1; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">
-                                &copy; 2026 DevLabs | Scalable Web Solutions
+                                &copy; 2026 DevByAnirban | Scalable Web Solutions
                             </p>
                         </td>
                     </tr>
