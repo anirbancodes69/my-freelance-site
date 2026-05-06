@@ -18,6 +18,7 @@ services:
     volumes:
       - ./backend:/var/www
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - /etc/letsencrypt:/etc/letsencrypt
     depends_on:
       - app
     restart: unless-stopped
