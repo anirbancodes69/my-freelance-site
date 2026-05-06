@@ -442,7 +442,7 @@
     </footer>
 
     <!-- FLOATING WHATSAPP BUTTON (High-Conversion for India) -->
-    <a href="https://wa.me/91XXXXXXXXXX?text=Hi!%20I'm%20interested%20in%20building%20a%20project%20with%20you."
+    {{-- <a href="https://wa.me/91XXXXXXXXXX?text=Hi!%20I'm%20interested%20in%20building%20a%20project%20with%20you."
         target="_blank"
         class="fixed bottom-6 right-6 z-[100] flex items-center gap-3 bg-[#25D366] hover:bg-[#20ba5a] text-white px-5 py-3 rounded-full shadow-2xl shadow-green-500/20 transition-all duration-300 hover:scale-110 group active:scale-95"
         id="whatsapp-btn">
@@ -455,7 +455,7 @@
             class="max-w-0 overflow-hidden whitespace-nowrap font-bold text-sm transition-all duration-500 group-hover:max-w-xs">
             Chat on WhatsApp
         </span>
-    </a>
+    </a> --}}
 
 
     <script>
@@ -518,20 +518,20 @@
         });
 
         // WhatsApp Button Behavior
-        const whatsappBtn = document.getElementById('whatsapp-btn');
+        // const whatsappBtn = document.getElementById('whatsapp-btn');
 
-        window.addEventListener('scroll', () => {
-            // Only show button after scrolling 300px
-            if (window.scrollY > 300) {
-                whatsappBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
-                whatsappBtn.classList.add('opacity-100', 'translate-y-0');
-            } else {
-                whatsappBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
-            }
-        });
+        // window.addEventListener('scroll', () => {
+        //     // Only show button after scrolling 300px
+        //     if (window.scrollY > 300) {
+        //         whatsappBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+        //         whatsappBtn.classList.add('opacity-100', 'translate-y-0');
+        //     } else {
+        //         whatsappBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+        //     }
+        // });
 
-        // Initial state for JS animation
-        whatsappBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+        // // Initial state for JS animation
+        // whatsappBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
     </script>
 </body>
 
